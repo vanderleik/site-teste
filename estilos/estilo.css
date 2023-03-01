@@ -1,0 +1,55 @@
+li, h2 {
+    color: red;
+}
+
+#my-id {
+    color: blue;
+    width: 900px;
+}
+
+a:hover {
+    color: darkred;    
+}
+
+html {
+    font-size: 12px; /*px significa "pixels*/
+    font-family: 'Hind Siliguri', sans-serif;/* este deve ser o nome da fonte que você obteve no Google Fonts */
+    background-color: #00539F;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /*o primeiro valor afeta a parte superior do elemento e a parte inferior*/
+                    /*no segundo valor os lados esquerdo e direito */
+                    /*auto é um valor especial que divide o espaço horizontal uniformemente entre esquerda e direita*/
+                    /* Você também pode utilizar um, três ou quatro valores, como documentado aqui */
+                    /*(https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin#sintaxe).*/
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px; /* temos quatro valores definidos no padding. 
+                                estamos definindo sem padding na parte superior do corpo
+                                20 pixels no lado esquerdo, na parte inferior e no lado direito. 
+                                Os valores definem a parte superior, o lado direito, a parte inferior e o lado esquerdo, nessa ordem. 
+                                Como com a margin, você também pode usar um, dois, ou três valores, conforme documentado na sintaxe do padding.*/
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
